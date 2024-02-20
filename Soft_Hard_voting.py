@@ -16,6 +16,7 @@ df1 = pd.read_csv(df, header=None).copy()
 #summary
 df1.describe()
 
+
 # adding column name to the respective columns
 df1.columns =['variance', 'skewness', 'curtosis', 'entropy', 'class']
 print(df1.dtypes)
