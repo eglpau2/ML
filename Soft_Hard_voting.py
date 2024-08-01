@@ -23,6 +23,8 @@ print(df1.dtypes)
 #cheak for nan
 print(df1.isnull().sum())
 
+
+
 pd.plotting.scatter_matrix(df1)
 cor = df1.corr()
 
