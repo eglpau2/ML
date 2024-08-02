@@ -1,20 +1,12 @@
+import pathlib
+
 import numpy as np
 import pandas as pd
-import pathlib
-from sklearn.preprocessing import *
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import train_test_split
-from sklearn.pipeline import Pipeline
-from sklearn.ensemble import RandomForestClassifier, VotingClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix, classification_report, f1_score, RocCurveDisplay, roc_auc_score
-import matplotlib.pyplot as plt
-import lightgbm as lgb
-from sklearn import datasets
-from sklearn import model_selection
 from sklearn import linear_model
 from sklearn import metrics
-
+from sklearn import model_selection
+from sklearn.metrics import confusion_matrix
+from sklearn.preprocessing import *
 
 df = pathlib.Path(r'C:\Users\egle0\OneDrive\Dokumentai\data science mokykla\DUOMENYS\16P.csv')
 df1 = pd.read_csv(df, encoding='cp1252')
