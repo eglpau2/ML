@@ -1,13 +1,13 @@
 import pathlib
-import pandas as pd
+
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix, accuracy_score, f1_score
-from sklearn.model_selection import train_test_split
+import pandas as pd
 from sklearn import metrics
-from sklearn.metrics import classification_report
-from sklearn import tree
 from sklearn import preprocessing
-import joblib
+from sklearn import tree
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import train_test_split
 
 dfp = pathlib.Path(r'C:\Users\egle0\OneDrive\Desktop\water_potability.csv')
 
@@ -15,7 +15,6 @@ df = pd.read_csv(dfp)
 print(df.columns.values)
 
 #pasaliname praleistas reiksmes
-
 df2 = df.dropna()
 print(df2.columns.values)
 
