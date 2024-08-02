@@ -1,9 +1,9 @@
-import numpy as np
+import os
 import pathlib
-import tensorflow as tf
+
 import matplotlib.pyplot as plt
 import pandas as pd
-import os
+import tensorflow as tf
 
 #loading data
 
