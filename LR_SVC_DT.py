@@ -7,6 +7,7 @@ from sklearn import metrics
 from sklearn.metrics import classification_report
 from sklearn import tree
 from sklearn import preprocessing
+import joblib
 
 dfp = pathlib.Path(r'C:\Users\egle0\OneDrive\Desktop\water_potability.csv')
 
